@@ -1,5 +1,6 @@
 import React from 'react';
-
+import MeSideNav from './meSideNav';
+import PublicSideNav from './pubicSideNav';
 
 export default class SideNav extends React.Component {
 
@@ -12,17 +13,8 @@ export default class SideNav extends React.Component {
 	render() {
 		return (
 			<nav className="side-nav">
-				<ul>
-					<li>
-						<a href="#">我的收藏</a>
-					</li>
-					<li>
-						<a href="#">我关注的问题</a>
-					</li>
-					<li>
-						<a href="#">邀请我回答的问题</a>
-					</li>
-				</ul>
+				<MeSideNav />
+				<PublicSideNav />
 			</nav>
 
 		)
