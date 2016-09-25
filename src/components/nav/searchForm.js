@@ -14,7 +14,9 @@ export default class SearchForm extends React.Component {
 		return (
 			<form className="search-form">
 				<input className="search-input" type="text" placeholder="搜索你感兴趣的内容..."/>
-				<button className="search-button">GO!</button>
+				<button className="search-button">
+					<span className="iconfont">&#xe602;</span>
+				</button>
 			</form>
 
 		)

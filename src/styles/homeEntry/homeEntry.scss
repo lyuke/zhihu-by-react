@@ -1,0 +1,31 @@
+.home-entry{
+	
+	img{
+		float:left;
+		width: 37px;
+		height: 37px;
+	}
+	.home-entry-main{
+		width:100%;
+		border: 1px solid #000;
+		background-color: #fafafa;
+
+
+		ul{
+			display:inline-block;
+			li{
+				display: inline-block;
+
+				a{
+					text-decoration: none;
+				}
+			}
+		}
+		.home-entry-draft{
+			width:50px;
+			float: right;
+		}
+	}
+	
+
+}
