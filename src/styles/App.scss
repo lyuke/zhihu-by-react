@@ -1,1 +1,24 @@
 @import 'nav/nav.scss';
+
+
+.content-wrapper {
+	padding-right:210px;
+	position:relative;
+	top: 60px;
+	width:632px;
+	margin:auto;
+
+	.aside {
+	    float:left;
+	    width:200px;
+		margin-left:-200px; /* = -this.width */
+	    position:relative;
+	    right:-210px; /* = -parantNode.paddingRight */
+	}
+	.main {
+		
+	    float:left;
+	    width:100%;
+	}
+
+}

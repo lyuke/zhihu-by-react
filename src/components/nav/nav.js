@@ -16,7 +16,6 @@ export default class TopNav extends React.Component {
 	render() {
 		return (
 			<nav className="main-nav">
-
 				<div className="main-wrapper">
 					<a href="/" className="logo"><span >知乎</span></a>
 					<SearchForm />
@@ -24,7 +23,6 @@ export default class TopNav extends React.Component {
 					<AskButton />
 					<ProfileNav />
 				</div>	
-
 			</nav>
 
 		)
