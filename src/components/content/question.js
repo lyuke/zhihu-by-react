@@ -1,5 +1,5 @@
 import React from 'react';
-
+import QuestionAvatar from './questionAvatar';
 
 export default class Question extends React.Component {
 	constructor(props) {
@@ -8,8 +8,8 @@ export default class Question extends React.Component {
 
 	render() {
 		return (
-			<div>
-				<div>question</div>
+			<div className="question">
+				<QuestionAvatar name={this.props.name}/>
 			</div>
 		)
 	}
