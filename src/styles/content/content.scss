@@ -1,0 +1,23 @@
+.content{
+	margin-top: 30px;
+	width: 100%;
+	position: relative;
+}
+
+.content-title{
+	width:100%;
+	height: 30px;
+	border-bottom: 1px solid;
+	color:#666;
+	
+	.dynamic-title{
+		float:left;
+		line-height:30px;
+	}
+
+	.content-setting{
+		float:right;
+		font-size:14px;
+		line-height:30px;
+	}
+}
