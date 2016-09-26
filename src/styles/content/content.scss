@@ -1,10 +1,10 @@
-.content{
+.feeds{
 	margin-top: 30px;
 	width: 100%;
 	position: relative;
 }
 
-.content-title{
+.home-list-title{
 	width:100%;
 	height: 30px;
 	border-bottom: 1px solid;
@@ -19,5 +19,17 @@
 		float:right;
 		font-size:14px;
 		line-height:30px;
+	}
+}
+
+
+
+.feed-item{
+	width:100%;
+	margin-top:20px;
+	border-bottom: 1px solid #eee;
+	img{
+		width:38px;
+		height:38px;
 	}
 }

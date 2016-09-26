@@ -6,7 +6,7 @@ import React from 'react';
 import TopNav from './nav/nav';
 import HomeEntry from './homeEntry/homeEntry';
 import SideNav from './sideNav/sideNav';
-import Content from './content/content';
+import Feeds from './content/feeds';
 
 
 class AppComponent extends React.Component {
@@ -17,7 +17,7 @@ class AppComponent extends React.Component {
 				<div className="content-wrapper">
 					<div className="main">
 						<HomeEntry></HomeEntry>
-						<Content />
+						<Feeds />
 					</div>
 					<div className="aside">
 						<SideNav />
