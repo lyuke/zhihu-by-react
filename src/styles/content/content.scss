@@ -34,27 +34,57 @@
 		height:38px;
 	}
 	.feed-aside{
-		width:40px;
-		position:absolute;
-		top:0;
-		left:0;
+		width:48px;
+		float:left;
 	}	
 	.feed-main{
-		left:40px;
-		top:0;
-		width:100%;
-		position:relative;
+		margin-left: 48px;
 	}
 }
 
 
-.feed-footer{
-	ul{
-		display:inline-block;
-
-		li{
-			display:inline-block;
-			margin-right: 5px;
+.feed-source{
+	font-size:13px;
+	color:rgb(153, 153, 153);
+}
+.question-link{
+	
+	&:hover{
+		text-decoration: underline;
+	}
+		
+	
+	h2{
+		font-size:15px;
+		color:rgb(34, 85, 153);
+	}
+	
+}
+.answer{
+	.answer-content{
+		p{
+			word-wrap:break-word;
 		}
+	}
+}
+.author{
+	font-size:14px;
+	a{
+		color:black;
+		font-style: bold;
+		&:after{
+			content:',';
+		}
+	}
+	span{
+		color:rgb(153, 153, 153);
+	}
+}
+
+.feed-footer{
+	padding: 4px 0;
+	margin-bottom: 5px;
+	a{
+		margin-right: 5px;
 	}
 }

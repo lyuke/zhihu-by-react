@@ -10,7 +10,7 @@ export default class Feeds extends React.Component {
 	render() {
 		let feeds = [];
 		for (var i = 0; i < 10; i++) {
-			feeds.push(<FeedItem />);
+			feeds.push(<FeedItem key={i}/>);
 		}
 		return (
 			<div className="feeds">

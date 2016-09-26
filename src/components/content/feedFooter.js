@@ -9,16 +9,8 @@ export default class FeedFooter extends React.Component {
 	render() {
 		return (
 			<div className="feed-footer">
-				<ul>
-					<li>
-						<span className="iconfont">&#xe607;</span>
-						<a href="#">关注问题</a>
-					</li>
-					<li>
-						<span className="iconfont">&#xe60d;</span>
-						<a href="#">62条评论</a>
-					</li>
-				</ul>
+				<a href="#"><span className="iconfont">&#xe607;</span>关注问题</a>	
+				<a href="#"><span className="iconfont">&#xe60d;</span>62条评论</a>
 			</div>
 		)
 	}
