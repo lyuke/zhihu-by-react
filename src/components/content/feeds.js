@@ -8,11 +8,14 @@ export default class Feeds extends React.Component {
 	}
 
 	render() {
-
+		let feeds = [];
+		for (var i = 0; i < 10; i++) {
+			feeds.push(<FeedItem />);
+		}
 		return (
 			<div className="feeds">
 				<HomeListTitle />
-				<FeedItem />
+				{feeds}
 			</div>
 
 		)

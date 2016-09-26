@@ -14,12 +14,17 @@ export default class FeedItem extends React.Component {
 	render() {
 		return (
 			<div className="feed-item">
-				<Avatar></Avatar>
-				<FeedSource />
-				<QuestionLink />
-				<Author />
-				<Answer />
-				<FeedFooter />
+				<div className="feed-aside">
+					<Avatar></Avatar>
+				</div>
+				<div className="feed-main">
+					<FeedSource />
+					<QuestionLink />
+					<Author />
+					<Answer />
+					<FeedFooter />
+				</div>
+				
 			</div>
 		)
 	}
