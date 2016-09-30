@@ -7,7 +7,7 @@ import TopNav from './nav/nav';
 import HomeEntry from './homeEntry/homeEntry';
 import SideNav from './sideNav/sideNav';
 import Feeds from './content/feeds';
-
+import Footer from './footer/footer';
 
 class AppComponent extends React.Component {
 	render() {
@@ -21,6 +21,7 @@ class AppComponent extends React.Component {
 					</div>
 					<div className="aside">
 						<SideNav />
+						<Footer/>
 					</div>
 				</div>
 				
