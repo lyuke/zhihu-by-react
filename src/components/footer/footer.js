@@ -15,6 +15,7 @@ export default class Footer extends React.Component {
 				<a href="#" className="footer-link">加入知乎</a>
 				<a href="#" className="footer-link">知乎协议</a>
 				<a href="#" className="footer-link">联系我们</a>
+				<span>&copy;2016 Loker</span>
 			</div>
 		)
 	}
